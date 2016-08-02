@@ -3,10 +3,9 @@ def main():
 	return;
 
 #this only count small letter
-#no-big-letter
 #unicode characte un-supported
 def occurences(word):
-	alphabet = "abcdefghijklmnopqrstuvwxyz"
+	alphabet = "aAbBcCdDeEfFgGhHiIjJkKlLmMnNoOpPqQrRsStTuUvVwWxXyYzZ"
 	hasil = ""
 	for x in alphabet:
 		hasil += str(x) + "," + str(word.count(x)) + "\n" if word.count(x)>0 else ""
