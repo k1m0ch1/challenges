@@ -3,8 +3,8 @@ def main():
 		hasil = ""
 		hasil += "fizz" if x%3==0 else ""
 		hasil += "buzz" if x%5==0 else ""
+		hasil += "woof" if x%7==0 else ""
 		hasil = x if hasil=="" else hasil
-
 		print hasil
 	return;
 
